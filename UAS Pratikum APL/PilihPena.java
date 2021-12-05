@@ -4,16 +4,16 @@ public class PilihPena
 
     public void setPen (Pen pena)
     {
-        this.pen = pena;
+        this.pen = pena; //mengembalikan pena
     }
 
     public Pen getPen()
     {
-        return pen;
+        return pen; 
     }
 
     public void color()
     {
-        pen.color();
+        pen.color(); //menampilkan warna pena yang dipilih
     }
 }
