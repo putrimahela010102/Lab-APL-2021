@@ -4,7 +4,7 @@ public class ImplPenAdapter implements PenAdapter
 
     public ImplPenAdapter (Pen pena)
     {
-        this.pena = pena;
+        this.pena = pena; //mengembalikan pena
     }
 
     @Override
@@ -16,7 +16,7 @@ public class ImplPenAdapter implements PenAdapter
 
     private double convertCMtoM (double cm)
     {
-        return cm / 100;
+        return cm / 100; //conversi cm ke m
     }
 
     @Override
