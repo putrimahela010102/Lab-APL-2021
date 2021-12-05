@@ -21,6 +21,7 @@ public class Main
 
             switch (pilih){
                 case 1:{
+                    //Strategi Patterns
                     System.out.println("\nVarian Warna Pena: ");
                     System.out.println(" => Merah \n => Biru \n => Hijau");
                     System.out.println("Masukkan warna pena yang anda sukai: ");
@@ -28,8 +29,7 @@ public class Main
                     scanner = new Scanner(System.in);
                     String varianWarnaPena = scanner.next();
                     System.out.println("\nPena yang anda pilih berwarna: " + varianWarnaPena);
-
-                    //PilihPena pilihPena = null;
+                    
                     PilihPena pilihPena = new PilihPena();
 
                     if("Pena Merah".equalsIgnoreCase(varianWarnaPena)){
@@ -40,10 +40,10 @@ public class Main
                         pilihPena.setPen(new GreenPen());
                     }
 
-                    //pilihPena.color();
                     break;
                 }
                 case 2:{
+                    //Adapter Patterns
                     Pen redPen = new RedPen();
                     PenAdapter redPenAdapter = new ImplPenAdapter(redPen);
                     System.out.println("Pena merah memiliki panjang " + redPenAdapter.getPanjang() + " m.");
