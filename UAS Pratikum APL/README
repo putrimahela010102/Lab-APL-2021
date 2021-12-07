@@ -6,4 +6,4 @@ Studi Kasus : Pen
 Program ini terdapat 8 class dimana ada 2 class interface dan 1 class main. Program ini menggunakan 2 Design Patterns yaitu Strategy Pattern dan
 Adapter Patterns dimana nantinya akan ada 2 pilihan menu di class main yang akan ditampilkan, yaitu memilih pena dan melihat ukuran panjang pena.
 dimana nantinya jika kita pilih pilihan 1 maka akan diterapkan Strategy pattern dalam pilihan itu, dan jika pilih pilihan 2 maka akan diterapkan 
-adaptern patterns. 
+adaptern patterns. Untuk lebih jelasnya dapat dilihat di vidio presentasi pada link berikut: https://youtu.be/BR2qw-_1b9M 
